@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DownCounter_Example' do
+  pod 'DownCounter', :path => '../'
+
+  target 'DownCounter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
